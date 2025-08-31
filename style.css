@@ -1,0 +1,77 @@
+body {
+    background-color: antiquewhite;
+}
+
+.todasDiv {
+    background-color: rgb(248, 207, 93);
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 2px 3px 13px orangered;
+    font-family: cursive;
+    font-size: 22px;
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+input {
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    outline: none;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 201, 142);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(248, 86, 65);
+    font-size: 20px;
+    transition: 600ms ease;
+}
+
+a:hover {
+    transform: scale(1.2);
+    color: black;
+}
+
+button {
+    padding-top: 3px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    border: 1px solid orange;
+    box-shadow: 1px 1px 4px rgb(248, 92, 35);
+    background-color: rgb(255, 175, 118);
+    font-family: cursive;
+    font-size: 16px;
+    color: rgba(58, 0, 134, 0.712);
+    transition: 600ms ease;
+}
+
+button:hover {
+    transform: scale(1.2);
+    color: rgb(255, 175, 118);
+    background-color: rgba(112, 48, 196, 0.808);
+    border: 1px solid rgb(115, 36, 241);
+    box-shadow: 1px 1px 4px purple;
+    cursor: pointer;
+}
